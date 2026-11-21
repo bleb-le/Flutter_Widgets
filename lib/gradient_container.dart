@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_belyaeva/styled_text.dart';
 
+const startAlignment = Alignment.topCenter;
+const endAlignment = Alignment.bottomCenter;
+
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
 
@@ -29,8 +32,8 @@ class GradientContainer extends StatelessWidget {
               226,
             ),
           ],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
+          begin: startAlignment,
+          end: endAlignment,
         ),
       ),
       child: Center(
